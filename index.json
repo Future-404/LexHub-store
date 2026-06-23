@@ -1,0 +1,26 @@
+[
+  {
+    "id": "sillytavern",
+    "name": "SillyTavern",
+    "version": "1.12.0",
+    "author": "SillyTavern Team",
+    "description": "SillyTavern is a user interface you can install on your computer (and Android phones) that allows you to interact with text generation AIs and chat/roleplay with characters you or the community create.",
+    "icon": "🎭",
+    "categories": ["AI", "Chat", "Roleplay"],
+    "platforms": ["linux", "windows", "termux"],
+    "repo_url": "https://github.com/SillyTavern/SillyTavern.git",
+    "branch": "release"
+  },
+  {
+    "id": "clewd",
+    "name": "Clewd",
+    "version": "2.7",
+    "author": "teralomaniac",
+    "description": "Claude to OpenAI API server adapter. Designed to be used with SillyTavern or other API frontends.",
+    "icon": "🤖",
+    "categories": ["AI", "API Proxy"],
+    "platforms": ["linux", "windows", "termux"],
+    "repo_url": "https://github.com/teralomaniac/clewd.git",
+    "branch": "main"
+  }
+]
