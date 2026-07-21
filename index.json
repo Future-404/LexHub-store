@@ -22,5 +22,52 @@
     "platforms": ["linux", "windows", "termux"],
     "repo_url": "https://github.com/teralomaniac/clewd.git",
     "branch": "main"
+  },
+  {
+    "id": "cliproxyapi",
+    "name": "CLIProxyAPI 代理",
+    "version": "1.0.0",
+    "author": "router-for-me",
+    "description": "CLIProxyAPI 是一个由 Go 编写的高性能代理工具，支持远程管理和 WebUI 后台，非常适合在手机端作为代理中转使用。",
+    "icon": "⚡",
+    "categories": ["AI", "Proxy"],
+    "platforms": ["linux", "termux"],
+    "platform_requirements": {
+      "termux": {
+        "architectures": ["arm64"]
+      }
+    },
+    "repo_url": "https://github.com/router-for-me/CLIProxyAPI.git",
+    "branch": "main"
+  },
+  {
+    "id": "gcli2api",
+    "name": "GCLI2API",
+    "version": "1.0.0",
+    "author": "su-kaka",
+    "description": "GCLI2API 用于将 GeminiCLI 和 Antigravity 转换为 OpenAI、GEMINI 和 Claude API 兼容接口，方便客户端接入使用。",
+    "icon": "🌐",
+    "categories": ["AI", "Proxy"],
+    "platforms": ["linux", "termux"],
+    "repo_url": "https://github.com/su-kaka/gcli2api.git",
+    "branch": "master"
+  },
+  {
+    "id": "codex",
+    "name": "OpenAI Codex CLI",
+    "version": "1.0.0",
+    "author": "OpenAI / DioNanos",
+    "description": "OpenAI 官方终端 AI 编程助手。支持自动适配 Termux 社区保活补丁，暂不支持 Windows。",
+    "icon": "terminal",
+    "categories": ["AI"],
+    "platforms": ["linux", "termux"],
+    "platform_requirements": {
+      "termux": {
+        "architectures": ["arm64"],
+        "min_android_api": 24
+      }
+    },
+    "repo_url": "https://github.com/DioNanos/codex-termux.git",
+    "branch": "main"
   }
 ]
